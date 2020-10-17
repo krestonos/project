@@ -113,6 +113,31 @@ function viewDiv5() {
   document.getElementById("details5").style.display = "block";
   document.getElementById("btn5").style.display = "none";
 }
+// кнопка скрыть 
+function viewDiv6() {
+  document.getElementById("details5").style.display = "none";
+  document.getElementById("btn5").style.display = "block";
+}
+function viewDiv7() {
+  document.getElementById("details4").style.display = "none";
+  document.getElementById("btn4").style.display = "block";
+}
+function viewDiv8() {
+  document.getElementById("details3").style.display = "none";
+  document.getElementById("btn3").style.display = "block";
+}
+function viewDiv9() {
+  document.getElementById("details2").style.display = "none";
+  document.getElementById("btn2").style.display = "block";
+}
+function viewDiv10() {
+  document.getElementById("details1").style.display = "none";
+  document.getElementById("btn1").style.display = "block";
+}
+function viewDiv11() {
+  document.getElementById("details").style.display = "none";
+  document.getElementById("btn").style.display = "block";
+}
 
 function viewCalc() {
   document.getElementById("calc").style.display = "block";
