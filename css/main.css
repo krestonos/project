@@ -564,6 +564,10 @@ h3 {
   text-align: center;
   margin-bottom: 30px;
 }
+.block-product__img:hover{
+  transition: 1s;
+  transform: scale(1.2);
+}
 
 .block-product__title {
   font-size: 22px;
