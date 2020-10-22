@@ -564,10 +564,10 @@ h3 {
   text-align: center;
   margin-bottom: 30px;
 }
-.block-product__img:hover{
+/*.block-product__img:hover{
   transition: 1s;
   transform: scale(1.2);
-}
+}*/
 
 .block-product__title {
   font-size: 22px;
@@ -1509,11 +1509,10 @@ h3 {
 }
 
 .block-skills {
-  max-width: 170px;
+  max-width: 176px;
   margin-right: 30px;
   margin-bottom: 10px;
 }
-
 .block-skills:last-child {
   margin-right: 0;
 }
@@ -1559,7 +1558,9 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+/*.block-skills__num:nth-child(2n-1){
+  margin-bottom: 15px;
+}*/
 .block-skills__text {
   font-size: 18px;
   font-weight: 500;
