@@ -6,8 +6,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 4000,
     speed: 1000,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1125,
         settings: {
           slidesToShow: 3,
@@ -49,8 +48,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 4000,
     speed: 1000,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1125,
         settings: {
           slidesToShow: 2,
@@ -70,10 +68,17 @@ $(document).ready(function () {
 });
 
 let map;
+
 function initMap() {
-  let dote = { lat: 51.4957591, lng: 31.220499 };
+  let dote = {
+    lat: 51.4957591,
+    lng: 31.220499
+  };
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 51.4957591, lng: 31.220499 },
+    center: {
+      lat: 51.4957591,
+      lng: 31.220499
+    },
     zoom: 9,
   });
   let marker = new google.maps.Marker({
@@ -93,22 +98,27 @@ function viewDiv() {
   document.getElementById("details").style.display = "block";
   document.getElementById("btn").style.display = "none";
 }
+
 function viewDiv1() {
   document.getElementById("details1").style.display = "block";
   document.getElementById("btn1").style.display = "none";
 }
+
 function viewDiv2() {
   document.getElementById("details2").style.display = "block";
   document.getElementById("btn2").style.display = "none";
 }
+
 function viewDiv3() {
   document.getElementById("details3").style.display = "block";
   document.getElementById("btn3").style.display = "none";
 }
+
 function viewDiv4() {
   document.getElementById("details4").style.display = "block";
   document.getElementById("btn4").style.display = "none";
 }
+
 function viewDiv5() {
   document.getElementById("details5").style.display = "block";
   document.getElementById("btn5").style.display = "none";
@@ -118,22 +128,27 @@ function viewDiv6() {
   document.getElementById("details5").style.display = "none";
   document.getElementById("btn5").style.display = "block";
 }
+
 function viewDiv7() {
   document.getElementById("details4").style.display = "none";
   document.getElementById("btn4").style.display = "block";
 }
+
 function viewDiv8() {
   document.getElementById("details3").style.display = "none";
   document.getElementById("btn3").style.display = "block";
 }
+
 function viewDiv9() {
   document.getElementById("details2").style.display = "none";
   document.getElementById("btn2").style.display = "block";
 }
+
 function viewDiv10() {
   document.getElementById("details1").style.display = "none";
   document.getElementById("btn1").style.display = "block";
 }
+
 function viewDiv11() {
   document.getElementById("details").style.display = "none";
   document.getElementById("btn").style.display = "block";
