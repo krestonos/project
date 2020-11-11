@@ -1,0 +1,26 @@
+    max-width: 1170px;
+    margin: 0 auto;
+
+	 <!--<button
+                class="block-product__btn"
+                id="btn"
+                onmousedown="viewDiv()"
+                >
+                Подробней
+              </button>-->
+
+
+				  <!--<div class="product-wrap">
+                <img
+                  class="block-product__img"
+                  src="img/product-1.jpg"
+                  alt="/"
+                />
+                <h4 class="block-product__title">
+                  Система нагревательных матов
+                </h4>
+                <p class="block-product__text">
+                  Под плитку, керамогранит, ковролин, ламинат, линолеум и даже в
+                  стяжку
+                </p>
+              </div>

@@ -2987,6 +2987,7 @@ h3 {
 }
 
 @media screen and (max-width: 320px) {
+
   .header__contact {
     padding: 10px;
   }
@@ -3117,4 +3118,5 @@ h3 {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+/*#sourceMappingURL = main.css.map*/
+}
